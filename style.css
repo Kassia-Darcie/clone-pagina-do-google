@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   width: calc(100% - 20px);
+   display: flex;
+   justify-content: flex-end; 
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 205px;
+    height: 40px;
+    align-items: center;
+}
+.menu-item{
+    background-color: aqua;
+}
+.app-icon, .user-icon{
+    display: block;
+    width: fit-content;
+    border-radius: 40px;
+}
+
+.app-icon:hover, .user-icon:hover{
+    background-color: #F0F0F0;
+}
+
+.app-icon img{
+    width: 18px;
+    height: 18px;
+    padding: calc((40px - 18px) / 2);
+}
+
+.user-icon img{
+    width: 34px;
+    height: 34px;
+    padding: calc((40px - 34px) / 2);
+}
